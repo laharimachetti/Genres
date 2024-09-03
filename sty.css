@@ -1,0 +1,42 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+/* Center the table */
+table {
+    width: 80%; /* Adjust the width as needed */
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+}
+
+/* Style table header (thead) */
+thead {
+    background-color: #ffdcdc;
+    color: rgb(62, 26, 225);
+}
+
+thead th {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Style table rows (tr) */
+tr {
+    border-bottom: 1px solid #ea2b2b;
+    transition: background-color 0.2s;
+}
+
+/* Style table data cells (td) */
+td {
+    padding: 10px;
+}
+
+/* Style the audio controls */
+audio {
+    width: 100%;
+}
+
+/* Add alternating row colors */
+tr:nth-child(even) {
+    background-color: #eed2d2;
+}
+
